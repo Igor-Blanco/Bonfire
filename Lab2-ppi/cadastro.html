@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Clínica ABC Health</title>
+  </head>
+  <body>
+
+    <header>
+        <h1>Clínica ABC Heath</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li> <a href="index.html">Home</a> </li>
+            <li> <a href="galeria.html">Galeria</a> </li>
+            <li> <a href="cadastro.html">Cadastro</a> </li>
+        </ul>
+    </nav>
+
+    <main>
+        <form method="post">
+            <label for="name">Nome:</label><br>
+            <input type="text" id="name" name="name" required placeholder="Nome"><br>
+            <br>
+
+            <label for="email">E-mail:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <br>
+
+            <label for="cpf">CPF:</label><br>
+            <input type="text" id="cpf" name="cpf" required><br>
+            <br>
+
+            <label for="telefone">Telefone:</label><br>
+            <input type="text" id="telefone" name="telefone" required><br>
+            <br>
+
+            <label for="idade">Idade:</label><br>
+            <input type="number" id="idade" name="idade" required><br>
+            <br>
+            <label for="DataNasc">Data de Nascimento:</label><br>
+            <input type="date" id="DataNasc" name="DataNasc"><br>
+            <br>
+
+            <legend>Sexo:</legend>
+            <input type="radio" name="gender" id="male" value="male" checked>
+            <label for="male">Masculino</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Feminino</label><br>
+            <br>
+
+            <legend>Estado Civil:</legend>
+            <label for="solteiro">Solteiro</label>
+            <input type="radio" id="solteiro" name="estCiv" value="solteiro" checked>
+            <label for="casado">Casado</label>
+            <input type="radio" id="casado" name="estCiv" value="casado">
+            <br>
+            
+            <legend>Endereço:</legend>
+            <label for="cep">CEP:</label><br>
+            <input type="text" id="cep" name="cep" required><br>
+            <label for="logradouro">Tipo de logradouro:</label><br>
+
+            <select name="logradouro" id="logradouro" required>
+                <option value="">Selecione por favor:</option>
+                <option value="rua">Rua</option>
+                <option value="avenida">Avenida</option>
+                <option value="praca">Praça</option>
+            </select><br>
+
+            <label for="log">Logradouro:</label><br>
+            <input type="text" id="log" name="log" required><br>
+
+            <label for="bairro">Bairro:</label><br>
+            <input type="text" id="bairro" name="bairro" required><br>
+
+            <label for="cidade">Cidade:</label><br>
+            <input type="text" id="cidade" name="cidade" required><br>
+
+            <label for="estado">Estado:</label><br>
+            <input type="estado" id="estado" name="estado" required><br>
+
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+
+    <footer>
+        <i> Av. João Naves de Ávila, Santa Mônica, Uberlândia </i>
+    </footer>
+
+  </body>
+</html>
